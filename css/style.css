@@ -32,6 +32,8 @@ li{
 /*HEADER*/
 header{
   background-color: #ff6900;
+  width: 80%;
+  margin: 0 auto;
 }
 
 header nav{
@@ -39,6 +41,7 @@ header nav{
   justify-content: space-around;
   padding: 5px;
   margin-bottom: 20px;
+  
 }
 
 header ul li a{
@@ -57,7 +60,6 @@ header .logo{
 /*MAIN*/
 main{
   display: flex;
-  background-color: bisque;
   width: 80%;
   margin: 0px auto;
 }
@@ -66,24 +68,121 @@ main .row{
   display: flex;
   justify-content: center;
   flex-wrap:wrap;
+  width: 80%;
+  margin: 0 auto;
 }
 
 main .container-card{
-  margin: 5%;
-}
-
-main .card{
-  border: 1px solid black;
-  width: 25%;
-  padding: 75px;
+  margin: 1%;
+  width: 200px;
 }
 
 main .image{
-  background-color: #d3d3d3;
-  width: 23%;
-  height: 70%;
-  
+  height: 350px;
 }
 
+main .description{
+  position: relative;
+}
+
+.description div{
+  position: absolute;
+  font-weight: bold;
+}
+
+.description div:first-child{
+bottom:30px;
+font-size: x-small;
+left: 0;
+}
+
+.description div:nth-child(2){
+text-transform: uppercase;
+left: 0;
+bottom:13px
+
+}
+
+.description div:nth-child(3){
+  font-size: x-small;
+  color: red;
+  left: 0;
+  bottom:0;
+}
+
+.description div:last-child{
+  font-size: x-small;
+  left: 38px;
+  text-decoration-line: line-through;
+  bottom:0;
+}
+
+.description.red-levis div:last-child{
+  font-size: x-small;
+  top: 21px;
+  left: 38px;
+  text-decoration-line: line-through;
+  display: none;
+}
+
+main .text{
+  font-size: x-small;
+  color: #ffff;
+}
+
+main .discount{
+  position: relative;
+  bottom:45px;
+  width: 30px;
+}
+
+main .discount:first-child{
+  padding: 2px;
+  background-color: red;
+}
+
+main .sostenibilità{
+  position: relative;
+  bottom:61px;
+  left:32px;
+  width:65px;
+  background-color: green;
+  padding: 2px;
+}
+
+main .sostenibilità.gonna{
+  position: relative;
+  left:0;
+  bottom:59px;
+}
 
 /*FOOTER*/
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: relative;
+  background-color: black;
+  color: #ffff;
+  width: 80%;
+  padding: 50px;
+  line-height: 25px;
+}
+
+footer .info{
+  position: absolute;
+  bottom:20px;
+  left:60px;
+}
+
+footer .social{
+  position: absolute;
+  bottom:20px;
+  right:60px;
+  text-align: center;
+}
+
+footer .social a{
+  color:#ffff;
+}
