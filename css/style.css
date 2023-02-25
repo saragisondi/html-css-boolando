@@ -55,3 +55,9 @@ main .container-cards{
   width: 90%;
   background-color: bisque;
 }
+
+main .card-uno{
+  background-color: #ffff;
+  width: calc(80% / 3);
+  margin: 15px 5px;
+}
