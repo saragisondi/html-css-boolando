@@ -70,3 +70,15 @@ main .icon{
   background-color: #ffff;
   padding:5px;
 }
+
+main .discount{
+  position:absolute;
+  top:200px;
+  left:0;
+  background-color: red;
+  padding:2px 5px;
+  color: #ffff;
+  font-size: xx-small;
+}
+
+
