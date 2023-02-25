@@ -93,4 +93,20 @@ main .sustainability{
   font-weight: bold;
 }
 
+main .brand{
+  position: absolute;
+  top: 240px;
+  left: 0;
+  font-size: xx-small;
+  font-weight: bold;
+}
+
+main .description{
+  position: absolute;
+  top: 250px;
+  left: 0;
+  font-size: small;
+  font-weight: bold;
+}
+
 
