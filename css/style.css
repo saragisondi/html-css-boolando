@@ -16,6 +16,7 @@ img{
 a{
   text-decoration: none;
   display: inline;
+  color: #ffff;
 }
 
 .container{
@@ -25,3 +26,17 @@ a{
 }
 
 /*HEADER*/
+
+header nav{
+  background-color: #ff6900;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .navbar-center{
+  max-width: 15%;
+}
+
+header a{
+  font-size: small;
+}
