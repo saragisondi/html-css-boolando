@@ -60,4 +60,13 @@ main .card-uno{
   background-color: #ffff;
   width: calc(80% / 3);
   margin: 15px 5px;
+  position: relative;
+}
+
+main .icon{
+  position: absolute;
+  top: 5px;
+  right:0;
+  background-color: #ffff;
+  padding:5px;
 }
