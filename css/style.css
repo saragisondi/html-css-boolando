@@ -26,17 +26,32 @@ a{
 }
 
 /*HEADER*/
-
 header nav{
   background-color: #ff6900;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+header a{
+  font-size: small;
 }
 
 header .navbar-center{
   max-width: 15%;
 }
 
-header a{
-  font-size: small;
+/*MAIN*/
+main{
+  background-color: aqua;
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:0 auto;
+}
+
+main .container-cards{
+  width: 90%;
+  background-color: bisque;
 }
