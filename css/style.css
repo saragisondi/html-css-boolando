@@ -53,12 +53,13 @@ main .container-cards{
   width: 80%;
   height: 100%;
   background-color: bisque;
+  margin-top: 50px;
 }
 
 main div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 main .card {
@@ -66,10 +67,8 @@ main .card {
   width: 30%;
   position: relative;
   padding-bottom: 20px;
-  margin-top: 50px;
-  
+  margin-bottom: 20px;
 }
-
 
 main .icon{
   position: absolute;
@@ -129,5 +128,7 @@ main .price span:first-child{
   color: red;
   margin-right: 5px;
 }
+
+/*FOOTER*/
 
 
