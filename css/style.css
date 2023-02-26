@@ -104,6 +104,17 @@ main .sustainability{
   font-weight: bold;
 }
 
+main .sustainability-six{
+  position: absolute;
+  bottom:60px;
+  left: 0;
+  background-color: green;
+  padding: 2px 5px;
+  color: #ffff;
+  font-size: xx-small;
+  font-weight: bold;
+}
+
 main .brand{
   position: absolute;
   bottom: 30px;
