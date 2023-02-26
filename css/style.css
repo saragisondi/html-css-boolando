@@ -78,6 +78,10 @@ main .icon{
   padding:5px;
 }
 
+main .icon:hover{
+  color: red;
+}
+
 main .discount{
   position:absolute;
   bottom:60px;
