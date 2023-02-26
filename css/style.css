@@ -15,8 +15,8 @@ img{
 
 a{
   text-decoration: none;
-  display: inline;
   color: #ffff;
+  display: inline-block;
 }
 
 .container{
@@ -37,16 +37,14 @@ header a{
 }
 
 header .navbar-center{
-  max-width: 15%;
+  max-width: 10%;
 }
 
 /*MAIN*/
 main{
-  background-color: aqua;
   width: 90%;
   height: 50%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   margin:0 auto;
 }
@@ -57,14 +55,21 @@ main .container-cards{
   background-color: bisque;
 }
 
-main .card-uno{
+main div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .card {
   background-color: #ffff;
-  width: calc(80% / 3);
-  height: 50%;
-  margin: 15px 5px;
+  width: 30%;
   position: relative;
   padding-bottom: 20px;
+  margin-top: 50px;
+  
 }
+
 
 main .icon{
   position: absolute;
