@@ -130,5 +130,29 @@ main .price span:first-child{
 }
 
 /*FOOTER*/
+footer{
+  background-color: #222222;
+}
 
+footer nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
 
+footer .navbar a{
+  margin-bottom: 5px;
+  
+}
+
+footer .navbar a:first-child{
+  display: block;
+}
+
+footer .navbar.left a{
+  font-size: small;
+}
+
+footer .navbar.right {
+  text-align: center;
+}
